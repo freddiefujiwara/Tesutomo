@@ -1,0 +1,30 @@
+{
+  "name": "tesutomo",
+  "version": "1.0.0",
+  "description": "Coverage",
+  "main": "src/myFunction.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/myFunction.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddiefujiwara/tesutomo.git"
+  },
+  "keywords": [
+    "Test",
+    "UnitTest"
+  ],
+  "author": "Fumikazu Fujiwara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freddiefujiwara/tesutomo/issues"
+  },
+  "homepage": "https://github.com/freddiefujiwara/tesutomo#readme",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
